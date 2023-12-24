@@ -1,0 +1,231 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_Repository\\3Pillars_Backend_Repository.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_BLL\\3Pillars_Backend_BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_BLL\\3Pillars_Backend_BLL.csproj",
+        "projectName": "3Pillars_Backend_BLL",
+        "projectPath": "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_BLL\\3Pillars_Backend_BLL.csproj",
+        "packagesPath": "C:\\Users\\heba.mostafa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\heba.mostafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_DAL\\3Pillars_Backend_DAL.csproj": {
+                "projectPath": "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_DAL\\3Pillars_Backend_DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_DAL\\3Pillars_Backend_DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_DAL\\3Pillars_Backend_DAL.csproj",
+        "projectName": "3Pillars_Backend_DAL",
+        "projectPath": "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_DAL\\3Pillars_Backend_DAL.csproj",
+        "packagesPath": "C:\\Users\\heba.mostafa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\heba.mostafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_Repository\\3Pillars_Backend_Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_Repository\\3Pillars_Backend_Repository.csproj",
+        "projectName": "3Pillars_Backend_Repository",
+        "projectPath": "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_Repository\\3Pillars_Backend_Repository.csproj",
+        "packagesPath": "C:\\Users\\heba.mostafa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\heba.mostafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_BLL\\3Pillars_Backend_BLL.csproj": {
+                "projectPath": "C:\\Users\\heba.mostafa\\source\\repos\\3Pillars_Backend_PL\\3Pillars_Backend_BLL\\3Pillars_Backend_BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EntityValidation": {
+              "target": "Package",
+              "version": "[1.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
